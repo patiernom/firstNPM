@@ -1,25 +1,15 @@
 {
   "name": "firstNPM",
   "version": "0.0.1",
-  "description": "first npm project test",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/patiernom/firstNPM"
+    "test": "mocha -R spec"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/patiernom/firstNPM/issues"
-  },
-  "homepage": "https://github.com/patiernom/firstNPM",
   "dependencies": {
-    "grunt": "^0.4.5"
-  },
-  "devDependencies": {
-    "grunt-contrib-uglify": "^0.7.0"
+    "mocha": "^2.1.0",
+    "chai": "^1.10.0"
   }
 }
